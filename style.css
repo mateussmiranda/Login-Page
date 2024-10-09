@@ -72,12 +72,43 @@ width: 100%;
 .input:focus {
     background-color: var(--whitesmoke);
     border: 2px solid var(--deep-grey);
-
 }
 
 .login__label .span-active {
     font-size: 0.7em;
     margin: 8px 10px;
-
 }
 
+.login__icons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login__icons img {
+    width: 20px;
+}
+
+.icons__button {
+  width: 33.33%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.login__icons .icons__button:nth-child(1) {
+    background-color: var(--blue);
+}
+
+.login__icons .icons__button:nth-child(2) {
+    background-color: var(--light-grey);
+}
+
+.login__icons .icons__button:nth-child(3) {
+    background-color: var(--black);
+}
