@@ -97,6 +97,7 @@ width: 100%;
     gap: 10px;
     width: 100%;
     margin-top: 20px;
+    
 }
 
 .login__icons img {
@@ -111,7 +112,16 @@ width: 100%;
   height: 35px;
   border-radius: 5px;
   cursor: pointer;
-  border: none;
+  transition: opacity 0.6 ease;
+  border: 0;
+}
+
+.icons__button:hover {
+opacity: 0.7;
+}
+
+.icons__button:active{
+    opacity: 0.5;
 }
 
 .login__icons .icons__button:nth-child(1) {
@@ -179,9 +189,10 @@ width: 100%;
 }
 
 .login__button:disabled{
-    cursor: auto;
+    cursor: pointer;
     background-color: white;
     border: 2px solid var(--light-grey);
+
 }
 
 .login__button:disabled svg {
@@ -191,7 +202,7 @@ width: 100%;
 .login__link {
     font-size: 0.8em;
     text-decoration: none;
-    color: var(--medium-grey);
+    color: rgb(153, 150, 150);
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: 700;

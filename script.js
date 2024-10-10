@@ -13,6 +13,17 @@ const handleFocusOut = ({ target }) => {
     }
 }
 
+function openInNewTab(buttonId, url) {
+    document.getElementById(buttonId).addEventListener('click', function () {
+        window.open(url, '_blank');
+    });
+}
+
+openInNewTab('facebok__button', 'https://www.facebook.com');
+openInNewTab('google__button', 'https://accounts.google.com');
+openInNewTab('apple__button', 'https://appleid.apple.com/auth/authorize');
+
+
 const handleChange = () => {
     const [username, password] = inputs;
 
