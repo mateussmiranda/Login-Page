@@ -22,7 +22,6 @@ const handleChange = () => {
     else {
         button.setAttribute('disabled', '');
     }
-
 }
 
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
