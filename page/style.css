@@ -68,7 +68,7 @@ width: 100%;
     font-size: 0.9em;
     padding: 25px 10px 10px;
     font-weight: 600;
-    color: var(--deep-grey)
+    color: var(--deep-grey);
 }
 
 .login__label span {
@@ -90,6 +90,16 @@ width: 100%;
 .login__label .span-active {
     font-size: 0.7em;
     margin: 8px 10px;
+}
+
+.nav__login {
+    font-size: 0.8em;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--medium-grey);
+    transition: color 0.3s ease;
 }
 
 .login__icons {
