@@ -92,14 +92,18 @@ width: 100%;
     margin: 8px 10px;
 }
 
-.nav__login {
-    font-size: 0.8em;
-    font-weight: 700;
+.link__recover-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    color: var(--medium-grey);
+}
+
+.link__recover {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--deep-grey);
     transition: color 0.3s ease;
+    text-align: right;
 }
 
 .login__icons {
