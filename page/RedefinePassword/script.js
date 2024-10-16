@@ -1,4 +1,5 @@
 const inputs = document.querySelectorAll('.input');
+const button = document.querySelector('.login__button');
 
 const handleFocus = ({ target }) => {
     const span = target.previousElementSibling;
