@@ -92,6 +92,31 @@ width: 100%;
     margin: 8px 10px;
 }
 
+
+.password-requirements {
+    font-size: 0.9em;
+    color: var(--deep-grey);
+    margin-bottom: 15px;
+}
+
+.password-requirements ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+.password-requirements li {
+    margin-bottom: 5px;
+}
+
+.invalid {
+    color: rgb(255, 0, 0);
+}
+
+.valid {
+    color: rgb(1, 155, 1);
+}
+
+
 .link__recover-wrapper {
     width: 100%;
     display: flex;
@@ -120,6 +145,14 @@ width: 100%;
     font-size: 18px;
     margin-top: 35;
 }
+
+.button__password:disabled{
+    cursor: pointer;
+    background-color: var(--medium-grey);
+    border: 2px solid var(--medium-greygrey);
+    color: var(--white);
+}
+
 
 .wallpaper {
     width: 100%;  
