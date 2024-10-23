@@ -208,3 +208,11 @@ width: 100%;
         transform: translateY(0);
     }
 }
+
+.wallpaper {
+    width: 100%;  
+    background-image: url('../images/wallpaper2.png.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
