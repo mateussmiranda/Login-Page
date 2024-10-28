@@ -13,7 +13,6 @@ const handleFocusOut = ({ target }) => {
     }
 }
 
-
 function togglePasswordVisibility(toggleId, inputId) {
     const toggleIcon = document.getElementById(toggleId);  
     const passwordInput = document.getElementById(inputId); 
